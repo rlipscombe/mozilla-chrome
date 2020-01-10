@@ -1,0 +1,5 @@
+/* Suppress blue dot on pinned tab */
+.tabbrowser-tab > .tab-stack >
+ .tab-content[pinned][titlechanged]:not([selected="true"]){
+  background-image: none !important;
+}
