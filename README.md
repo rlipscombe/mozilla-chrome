@@ -10,4 +10,6 @@ Installation:
 2. Copy the value of "Profile Directory".
 3. In bash, change to that directory.
 4. `ln -s /path/to/mozilla-chrome chrome`.
-5. Restart Firefox.
+5. Back in Firefox, go to `about:config`.
+6. Set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`.
+7. Restart Firefox.
